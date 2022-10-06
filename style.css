@@ -5,5 +5,30 @@ body{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.EUR{
+  color: #FD8A52;
+  font-weight: 700;
+}
+.villas{
+  font-weight: 300;
+}
+
+.button_style{
+  background-color: #FD8A52;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 3px;
+}
+.button_style:hover{
+  background-color: white;
+  color: #FD8A52;
+  border: 1px solid #FD8A52; ;
+  transition-duration: 700ms;
+}
 
 
