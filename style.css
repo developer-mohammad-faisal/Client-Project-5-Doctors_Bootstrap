@@ -5,7 +5,7 @@ body {
 }
 
 .EUR {
-  color: #fd8a52;
+  color: #fd8b52e5;
   font-weight: 700;
 }
 .villas {
@@ -13,7 +13,7 @@ body {
 }
 
 .button_style {
-  background-color: #fd8a52;
+  background-color: #fd8b52e5;
   color: white;
   font-weight: 500;
   border: none;
@@ -25,8 +25,8 @@ body {
 }
 .button_style:hover {
   background-color: white;
-  color: #fd8a52;
-  border: 1px solid #fd8a52;
+  color: #fd8b52e5;
+  border: 1px solid #fd8b52e5;
   transition-duration: 700ms;
 }
 
@@ -41,7 +41,7 @@ body {
 
 .button_map {
   background-color: white;
-  color: #fd8a52;
+  color: #fd8b52e5;
   font-weight: 500;
   border: none;
   padding-left: 40px;
@@ -52,9 +52,9 @@ body {
   box-shadow: 2px 3px 5px rgba(128, 128, 128, 0.082);
 }
 .button_map:hover {
-  background-color: #fd8a52;
+  background-color: #fd8b52e5;
   color: white;
-  border: 1px solid #fd8a52;
+  border: 1px solid #fd8b52e5;
   transition-duration: 700ms;
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .button_newsletter {
-  background-color: #fd8a52;
+  background-color: #fd8b52e5;
   color: white;
   font-weight: 500;
   width: 400px;
@@ -103,47 +103,47 @@ body {
 }
 .button_newsletter:hover {
   background-color: white;
-  color: #fd8a52;
-  border: 1px solid #fd8a52;
+  color: #fd8b52e5;
+  border: 1px solid #fd8b52e5;
   transition-duration: 700ms;
 }
 
-.newsletter_container{
+.newsletter_container {
   background-color: #f5f5f5;
 }
 
-.newsletter_container h2{
+.newsletter_container h2 {
   font-weight: 400;
 }
-.newsletter_container p{
+.newsletter_container p {
   font-weight: 700;
 }
 
-.img_content{
+.img_content {
   position: absolute;
   bottom: 0;
   left: 30%;
 }
 
-.popular_container{
+.popular_container {
   width: 100%;
   height: 100%;
 }
 
-.popular_container img{
+.popular_container img {
   width: 100%;
   height: 220px;
 }
 
-.new_villas_container h3{
+.new_villas_container h3 {
   font-weight: 400;
 }
-.new_villas_container h4{
+.new_villas_container h4 {
   font-weight: 600;
 }
 
-.button_villas{
-   background-color: #fd8a52;
+.button_villas {
+  background-color: #fd8b52e5;
   color: white;
   font-weight: 500;
   border: none;
@@ -153,9 +153,60 @@ body {
   padding-bottom: 5px;
   border-radius: 3px;
 }
-.button_villas:hover{
-    background-color: white;
-  color: #fd8a52;
-  border: 1px solid #fd8a52;
+.button_villas:hover {
+  background-color: white;
+  color: #fd8b52e5;
+  border: 1px solid #fd8b52e5;
+  transition-duration: 700ms;
+}
+
+.villas_border {
+  border: 1px solid rgba(128, 128, 128, 0.548);
+}
+
+.shortlist {
+  background-color: white;
+  border: 1px solid #fd8b52e5;
+  color: #fd8b52e5;
+  font-weight: 500;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+}
+
+.shortlist:hover {
+}
+
+.form_bg {
+  background-color: #f5f5f5;
+}
+
+.form_content_color {
+  color: #003865;
+}
+
+.nights {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.more_details {
+  background-color: #fd8b52e5;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+}
+.more_details:hover {
+  background-color: white;
+  color: #fd8b52e5;
+  border: 1px solid #fd8b52e5;
   transition-duration: 700ms;
 }
