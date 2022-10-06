@@ -60,12 +60,8 @@ body{
 
 .destinations{
   background-color: #F5F5F5;
+  padding-bottom: 80px;
 }
-
-/* .destinations_card {
-  width: 308px;
-  height: 170px;
-} */
 
 .destinations_card{
   box-shadow: 2px 3px 5px rgba(128, 128, 128, 0.082);
@@ -77,6 +73,10 @@ body{
 }
 
 .destinations_card img {
-  width: 309px;
   height: 108px;
+}
+
+.according_style{
+  margin-top: 70px;
+  width: 700px;
 }
