@@ -39,3 +39,44 @@ body{
   margin-top: 15px;
 }
 
+.button_map{
+ background-color: white;
+  color: #FD8A52;
+  font-weight: 500;
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 3px;
+  box-shadow: 2px 3px 5px rgba(128, 128, 128, 0.082);
+}
+.button_map:hover{
+  background-color: #FD8A52;
+  color: white;
+  border: 1px solid #FD8A52; ;
+  transition-duration: 700ms;
+}
+
+.destinations{
+  background-color: #F5F5F5;
+}
+
+/* .destinations_card {
+  width: 308px;
+  height: 170px;
+} */
+
+.destinations_card{
+  box-shadow: 2px 3px 5px rgba(128, 128, 128, 0.082);
+}
+
+.destinations_card h5{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.destinations_card img {
+  width: 309px;
+  height: 108px;
+}
