@@ -80,3 +80,11 @@ body{
   margin-top: 70px;
   width: 700px;
 }
+
+.inspiration_container h6 {
+  font-size: 12px;
+}
+.inspiration_container img{
+  border-radius: 5px;
+  height: 140px;
+}
