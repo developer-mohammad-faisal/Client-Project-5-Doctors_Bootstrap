@@ -4,6 +4,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* Introduction Style */
 .EUR {
   color: #fd8b52e5;
   font-weight: 700;
@@ -29,6 +30,23 @@ body {
   border: 1px solid #fd8b52e5;
   transition-duration: 700ms;
 }
+
+
+.italy_villas{
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 1139px) {
+ .italy_villas{
+  flex-direction: column;
+  text-align: center;
+ }
+ .button_style{
+   width: 100%;
+ }
+}
+
 
 .Feature {
   background-color: #d8ebf1;
@@ -164,6 +182,13 @@ body {
   border: 1px solid rgba(128, 128, 128, 0.548);
 }
 
+@media only screen and (max-width: 1139px) {
+ .most_popular_villas_container{
+  display: none;
+ }
+}
+
+
 .shortlist {
   background-color: white;
   border: 1px solid #fd8b52e5;
@@ -176,8 +201,6 @@ body {
   border-radius: 3px;
 }
 
-.shortlist:hover {
-}
 
 .form_bg {
   background-color: #f5f5f5;
@@ -209,4 +232,37 @@ body {
   color: #fd8b52e5;
   border: 1px solid #fd8b52e5;
   transition-duration: 700ms;
+}
+
+
+
+
+
+.footer-style2 {
+  overflow-x: hidden;
+  background-color: #003865;
+  color: white;
+}
+.footer-texts a {
+  text-decoration: none;
+  color: #fd6f61;
+  font-size: 18px;
+}
+.footer-texts a:hover {
+  color: #fd8a52;
+}
+.social-icons {
+  width: 60px;
+}
+.footer-style3 {
+  overflow-x: hidden;
+  background-color: #003865;
+  color: white;
+  border-top: 2px solid white;
+}
+
+@media only screen and (max-width: 688px) {
+  .order-style1 {
+    order: 2;
+  }
 }
